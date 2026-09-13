@@ -565,49 +565,6 @@ Macro precision
 Macro recall
 Macro F1-score
 Confusion matrix
-
-All reported values are taken from the actual experiments.
-
-Reproducibility Checklist
-
-Before considering the experiment reproduced, check the following:
-
- Fashion-MNIST dataset has been added to Kaggle
- Training and test CSV files are available
- Pixel values are normalised to 0–1
- Images are flattened to 784 features
- Training data uses an 80/20 train-validation split
- Test data remains untouched until Part 7
- Random seed is set to 42
- Part 1 uses 5,000 samples and 20 epochs
- NumPy gradients are compared with PyTorch gradients
- Four activation functions are tested
- Cross-entropy and MSE are compared
- Four optimisers are tested
- The overfitted model uses 2,000 samples
- The overfitted network has at least four hidden layers
- Training accuracy exceeds 99% in Part 5
- L2 uses at least three lambda values
- Dropout uses at least three rates
- L1 weight percentage below 1e-3 is recorded
- Batch normalisation is tested
- Early stopping is tested
- Data augmentation is tested
- 10,000 and 20,000 training samples are tested
- At least 12 random-search configurations are tested
- 5-fold cross-validation is used
- Top five configurations are reported
- Final model is evaluated on the untouched test set
- Confusion matrix is included
-Technologies Used
-Python
-NumPy
-Pandas
-Matplotlib
-Scikit-learn
-PyTorch
-Jupyter Notebook
-Kaggle
 # Author
 
 Mehreen Fatima
